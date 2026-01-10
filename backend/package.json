@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nykaa_clone-2.0",
   "version": "1.0.0",
   "main": "index.js",
@@ -18,5 +19,16 @@
     "jsonwebtoken": "^9.0.3",
     "mongodb": "^7.0.0",
     "mongoose": "^9.1.2"
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> a3b46c44511b401d3fcc51ce605b729a090a1f5e
   }
 }

@@ -1,0 +1,82 @@
+/* Clean standard CSS */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f5f7;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.btn-primary {
+  background-color: #f42f7a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Flexbox for the side-by-side Cart layout */
+.cart-layout {
+  display: flex;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* NavBar Styles */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  color: #f42f7a;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links a:hover {
+  color: #f42f7a;
+}
+
+.nav-register-btn {
+  background-color: #f42f7a;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
