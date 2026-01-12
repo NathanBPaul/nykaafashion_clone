@@ -6,9 +6,11 @@ const connectDB = require("./config/db.js");
 const authRoutes = require("./routes/auth.routes.js");
 const productRoutes = require("./routes/product.routes.js");
 const cartRoutes = require("./routes/cart.routes.js");
+const wishlistRoutes = require("./routes/wishlist.routes.js");
+const checkoutRoutes = require("./routes/checkout.routes.js");
 
 
-const app = express(); // ✅ app MUST be created before use
+const app = express(); 
 
 // middleware
 app.use(cors());
@@ -18,7 +20,8 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/cart", cartRoutes);
-
+app.use("/api/wishlist", wishlistRoutes);
+app.use("/api/checkout", checkoutRoutes);
 
 // start server AFTER DB connection
 const startServer = async () => {
